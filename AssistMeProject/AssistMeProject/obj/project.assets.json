@@ -8983,7 +8983,7 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "X7IdhILzr4ROXd8mI1BUCQMSHSQwelUlBjF1JyTKCjXaOGn2fB4EKBxQbCK2VjO3WaWIdlXZL3W6TiIVnrhX4g==",
+      "sha512": "/p8IQT2brFMDa7BHMH71LV+w5Tb3OxoLHxhn6+MGqN5xeqhM2HRHmj+7xQGJnaRn73d7ZTvp6yRCFMvolws4wA==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -9009,7 +9009,7 @@
       ]
     },
     "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "ytoewC6wGorL7KoCAvRfsgoJPJbNq+64k2SqW6JcOAebWsFUvCCYgfzQMrnpvPiEl4OrblUlhF2ji+Q1+SVLrQ==",
+      "sha512": "JGc0pAWRE8lB4Ucygk2pYSKbUPLlAIq6Bczf5/WF2D/VKJEPtYlVUMxk8fbl1zRfTWzSHi+VcFZlaPlWiNxeKg==",
       "type": "package",
       "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -9416,7 +9416,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "sha512": "NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -14137,23 +14137,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\camil\\.nuget\\packages\\": {},
+    "C:\\Users\\LAURA HINCAPIE\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camil\\Desktop\\Proyecto APOII\\AssistMe\\AssistMeProject\\AssistMeProject\\AssistMeProject.csproj",
+      "projectUniqueName": "C:\\Users\\LAURA HINCAPIE\\Documents\\GitHub\\AssistMe\\AssistMeProject\\AssistMeProject\\AssistMeProject.csproj",
       "projectName": "AssistMeProject",
-      "projectPath": "C:\\Users\\camil\\Desktop\\Proyecto APOII\\AssistMe\\AssistMeProject\\AssistMeProject\\AssistMeProject.csproj",
-      "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camil\\Desktop\\Proyecto APOII\\AssistMe\\AssistMeProject\\AssistMeProject\\obj\\",
+      "projectPath": "C:\\Users\\LAURA HINCAPIE\\Documents\\GitHub\\AssistMe\\AssistMeProject\\AssistMeProject\\AssistMeProject.csproj",
+      "packagesPath": "C:\\Users\\LAURA HINCAPIE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LAURA HINCAPIE\\Documents\\GitHub\\AssistMe\\AssistMeProject\\AssistMeProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LAURA HINCAPIE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -14422,7 +14422,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Authentication (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Authentication 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Authentication (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Authentication 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Authentication",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14432,7 +14432,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Authentication.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Authentication.Abstractions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Authentication.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Authentication.Abstractions 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Authentication.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14442,7 +14442,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Authentication.Cookies (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Authentication.Cookies 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Authentication.Cookies (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Authentication.Cookies 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Authentication.Cookies",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14452,7 +14452,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Authentication.Core (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Authentication.Core 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Authentication.Core (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Authentication.Core 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Authentication.Core",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14462,7 +14462,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Cryptography.Internal (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Cryptography.Internal 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Cryptography.Internal (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Cryptography.Internal 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Cryptography.Internal",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14472,7 +14472,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Cryptography.KeyDerivation (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Cryptography.KeyDerivation 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Cryptography.KeyDerivation (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Cryptography.KeyDerivation 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Cryptography.KeyDerivation",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14482,7 +14482,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.DataProtection (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.DataProtection 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.DataProtection (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.DataProtection 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.DataProtection",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14492,7 +14492,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.DataProtection.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.DataProtection.Abstractions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.DataProtection.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.DataProtection.Abstractions 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.DataProtection.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14502,7 +14502,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Hosting.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Hosting.Abstractions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Hosting.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Hosting.Abstractions 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Hosting.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14512,7 +14512,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Hosting.Server.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Hosting.Server.Abstractions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Hosting.Server.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Hosting.Server.Abstractions 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Hosting.Server.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14522,7 +14522,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Http (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Http 2.2.2 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Http (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Http 2.2.2 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Http",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14532,7 +14532,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Http.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Http.Abstractions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Http.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Http.Abstractions 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Http.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14542,7 +14542,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Http.Extensions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Http.Extensions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Http.Extensions (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Http.Extensions 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Http.Extensions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14552,7 +14552,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Http.Features (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Http.Features 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Http.Features (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Http.Features 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Http.Features",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14562,7 +14562,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Identity (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Identity 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Identity (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Identity 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Identity",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14572,7 +14572,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Razor.Design (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Razor.Design 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Razor.Design (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Razor.Design 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Razor.Design",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14582,7 +14582,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Razor.Language (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Razor.Language 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Razor.Language (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Razor.Language 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Razor.Language",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14592,7 +14592,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Session (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Session 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Session (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Session 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Session",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14602,7 +14602,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.WebUtilities (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.WebUtilities 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.WebUtilities (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.WebUtilities 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.WebUtilities",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14612,7 +14612,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.EntityFrameworkCore (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.EntityFrameworkCore 2.2.3 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.EntityFrameworkCore (>= 2.1.1 && < 2.2.0) but version Microsoft.EntityFrameworkCore 2.2.3 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14622,7 +14622,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.EntityFrameworkCore.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.EntityFrameworkCore.Abstractions 2.2.3 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.EntityFrameworkCore.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.EntityFrameworkCore.Abstractions 2.2.3 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14632,7 +14632,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.EntityFrameworkCore.Analyzers (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.EntityFrameworkCore.Analyzers 2.2.3 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.EntityFrameworkCore.Analyzers (>= 2.1.1 && < 2.2.0) but version Microsoft.EntityFrameworkCore.Analyzers 2.2.3 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Analyzers",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14642,7 +14642,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.EntityFrameworkCore.Design (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.EntityFrameworkCore.Design 2.2.3 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.EntityFrameworkCore.Design (>= 2.1.1 && < 2.2.0) but version Microsoft.EntityFrameworkCore.Design 2.2.3 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Design",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14652,7 +14652,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.EntityFrameworkCore.Relational (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.EntityFrameworkCore.Relational 2.2.3 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.EntityFrameworkCore.Relational (>= 2.1.1 && < 2.2.0) but version Microsoft.EntityFrameworkCore.Relational 2.2.3 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Relational",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14662,7 +14662,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.EntityFrameworkCore.Tools (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.EntityFrameworkCore.Tools 2.2.3 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.EntityFrameworkCore.Tools (>= 2.1.1 && < 2.2.0) but version Microsoft.EntityFrameworkCore.Tools 2.2.3 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Tools",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14672,7 +14672,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.Caching.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.Caching.Abstractions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Caching.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Caching.Abstractions 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Caching.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14682,7 +14682,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.Caching.Memory (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.Caching.Memory 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Caching.Memory (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Caching.Memory 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Caching.Memory",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14692,7 +14692,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.Configuration (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.Configuration 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Configuration (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Configuration 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Configuration",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14702,7 +14702,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.Configuration.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.Configuration.Abstractions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Configuration.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Configuration.Abstractions 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Configuration.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14712,7 +14712,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.Configuration.Binder (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.Configuration.Binder 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Configuration.Binder (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Configuration.Binder 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Configuration.Binder",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14722,7 +14722,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.DependencyInjection (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.DependencyInjection 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.DependencyInjection (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.DependencyInjection 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.DependencyInjection",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14732,7 +14732,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.DependencyInjection.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.DependencyInjection.Abstractions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.DependencyInjection.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.DependencyInjection.Abstractions 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14742,7 +14742,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.FileProviders.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.FileProviders.Abstractions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.FileProviders.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.FileProviders.Abstractions 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.FileProviders.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14752,7 +14752,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.Hosting.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.Hosting.Abstractions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Hosting.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Hosting.Abstractions 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Hosting.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14762,7 +14762,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.Identity.Core (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.Identity.Core 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Identity.Core (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Identity.Core 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Identity.Core",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14772,7 +14772,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.Logging (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.Logging 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Logging (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Logging 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Logging",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14782,7 +14782,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.Logging.Abstractions (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.Logging.Abstractions 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Logging.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Logging.Abstractions 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Logging.Abstractions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14792,7 +14792,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.ObjectPool (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.ObjectPool 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.ObjectPool (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.ObjectPool 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.ObjectPool",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14802,7 +14802,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.Options (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.Options 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Options (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Options 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Options",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14812,7 +14812,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.Primitives (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.Primitives 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Primitives (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Primitives 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Primitives",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14822,7 +14822,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Extensions.WebEncoders (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Extensions.WebEncoders 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.WebEncoders (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.WebEncoders 2.2.0 was resolved.",
       "libraryId": "Microsoft.Extensions.WebEncoders",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14832,7 +14832,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.Net.Http.Headers (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.Net.Http.Headers 2.2.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Net.Http.Headers (>= 2.1.1 && < 2.2.0) but version Microsoft.Net.Http.Headers 2.2.0 was resolved.",
       "libraryId": "Microsoft.Net.Http.Headers",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14842,7 +14842,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"EntityFramework 6.2.0\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'EntityFramework 6.2.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "EntityFramework",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14852,7 +14852,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"IKVM 8.1.5717\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'IKVM 8.1.5717' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "IKVM",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14862,7 +14862,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Microsoft.AspNet.Identity.Core 2.2.2\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14872,7 +14872,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Microsoft.AspNet.Identity.EntityFramework 2.2.2\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'Microsoft.AspNet.Identity.EntityFramework 2.2.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.EntityFramework",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14882,7 +14882,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Microsoft.AspNet.Identity.Owin 2.2.2\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'Microsoft.AspNet.Identity.Owin 2.2.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Owin",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14892,7 +14892,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Microsoft.Owin 3.0.1\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'Microsoft.Owin 3.0.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14902,7 +14902,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Microsoft.Owin.Security 3.0.1\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'Microsoft.Owin.Security 3.0.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin.Security",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14912,7 +14912,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Microsoft.Owin.Security.Cookies 3.0.1\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'Microsoft.Owin.Security.Cookies 3.0.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin.Security.Cookies",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14922,7 +14922,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Microsoft.Owin.Security.OAuth 3.0.1\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'Microsoft.Owin.Security.OAuth 3.0.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin.Security.OAuth",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14932,7 +14932,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Owin 1.0.0\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "Owin",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14942,7 +14942,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"slf4j-api 1.7.5.4\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'slf4j-api 1.7.5.4' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "slf4j-api",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14952,7 +14952,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"SpreadsheetLight 3.4.9\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'SpreadsheetLight 3.4.9' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "SpreadsheetLight",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -14962,7 +14962,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Stanford.NLP.CoreNLP 3.9.1\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v2.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'Stanford.NLP.CoreNLP 3.9.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "Stanford.NLP.CoreNLP",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
