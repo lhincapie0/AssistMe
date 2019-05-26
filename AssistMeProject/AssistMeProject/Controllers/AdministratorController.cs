@@ -31,11 +31,10 @@ namespace AssistMeProject.Controllers
 
         public IActionResult Index()
         {
-
-            User actualUser = null;
-            if (!string.IsNullOrEmpty(HttpContext.Session.GetString("USERNAME")))
-                actualUser = model.GetUser(HttpContext.Session.GetString("USERNAME"));
-
+            string user = SetActiveUser();
+            User actualUser = _context.User.FirstOrDefault(a => a.USERNAME.Equals(user));
+            if (actualUser==null)
+                return RedirectToAction("Index","Users", new { message = "Inicie sesión"});
             if (actualUser != null)
             {
                 ViewData["Admin"] = actualUser.LEVEL;
@@ -43,7 +42,6 @@ namespace AssistMeProject.Controllers
             else
             {
                 ViewData["Admin"] = 4;
-
             }
 
             return View();
@@ -52,10 +50,11 @@ namespace AssistMeProject.Controllers
 
         public IActionResult ManageStudios()
         {
-
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             User actualUser = null;
-            if (!string.IsNullOrEmpty(HttpContext.Session.GetString("USERNAME")))
-                actualUser = model.GetUser(HttpContext.Session.GetString("USERNAME"));
+            if (!string.IsNullOrEmpty(HttpContext.Session.GetString(UsersController.ACTIVE_USERNAME)))
+                actualUser = model.GetUser(HttpContext.Session.GetString(UsersController.ACTIVE_USERNAME));
 
             if (actualUser != null)
             {
@@ -76,11 +75,15 @@ namespace AssistMeProject.Controllers
 
         public IActionResult NotAdmin(User user)
         {
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             return View(user);
         }
 
         public async Task<IActionResult> IndexAsync()
         {
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             var users = (await _context.User.ToListAsync());
 
             return View(users);
@@ -93,7 +96,8 @@ namespace AssistMeProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateStudio(IFormFile file, [Bind("Id, Name, Unit, Description, Email")] Studio studio)
         {
-
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             if (ModelState.IsValid)
             {
                 _context.Add(studio);
@@ -128,6 +132,8 @@ namespace AssistMeProject.Controllers
         // GET: Questions/Details/5
         public async Task<IActionResult> AsignRole(int? id)
         {
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             if (id == null)
             {
                 return NotFound();
@@ -148,7 +154,8 @@ namespace AssistMeProject.Controllers
         // GET: /<controller>/
         public IActionResult CreateStudio()
         {
-
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             User actualUser = null;
             if (!string.IsNullOrEmpty(HttpContext.Session.GetString("USERNAME")))
                 actualUser = model.GetUser(HttpContext.Session.GetString("USERNAME"));
@@ -180,9 +187,9 @@ namespace AssistMeProject.Controllers
         public async Task<IActionResult> AddAdmin()
         {
 
-            User actualUser = null;
-            if (!string.IsNullOrEmpty(HttpContext.Session.GetString("USERNAME")))
-                actualUser = model.GetUser(HttpContext.Session.GetString("USERNAME"));
+            User actualUser = _context.User.FirstOrDefault(a => a.USERNAME.Equals(SetActiveUser()));
+            if (actualUser==null)
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
 
             if (actualUser != null)
             {
@@ -203,9 +210,9 @@ namespace AssistMeProject.Controllers
         // GET: Questions
         public async Task<IActionResult> ArchivedQuestions()
         {
-            User actualUser = null;
-            if (!string.IsNullOrEmpty(HttpContext.Session.GetString("USERNAME")))
-                actualUser = model.GetUser(HttpContext.Session.GetString("USERNAME"));
+            User actualUser = _context.User.FirstOrDefault(a => a.USERNAME.Equals(SetActiveUser()));
+            if (actualUser == null)
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
 
             if (actualUser != null)
             {
@@ -216,7 +223,7 @@ namespace AssistMeProject.Controllers
                 ViewData["Admin"] = 4;
 
             }
-
+           
             var questions = await _context.Question.Where(q => q.isArchived == true)
                 .Include(q => q.Answers)
                 .Include(q => q.QuestionLabels)
@@ -237,8 +244,10 @@ namespace AssistMeProject.Controllers
         public async Task<IActionResult> ShowSummary()
         {
             User actualUser = null;
-            if (!string.IsNullOrEmpty(HttpContext.Session.GetString("USERNAME")))
-                actualUser = model.GetUser(HttpContext.Session.GetString("USERNAME"));
+            if (!string.IsNullOrEmpty(HttpContext.Session.GetString(UsersController.ACTIVE_USERNAME)))
+                actualUser = model.GetUser(HttpContext.Session.GetString(UsersController.ACTIVE_USERNAME));
+            else
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
 
             if (actualUser != null)
             {
@@ -264,6 +273,8 @@ namespace AssistMeProject.Controllers
         // GET: Questions/Delete/5
         public async Task<IActionResult> DeleteStudio(int? id)
         {
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             var studio = await _context.Studio.FindAsync(id);
             _context.Studio.Remove(studio);
             await _context.SaveChangesAsync();
@@ -275,7 +286,8 @@ namespace AssistMeProject.Controllers
         // GET: Questions/Create
         public IActionResult Show()
         {
-
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             User actualUser = null;
             if (!string.IsNullOrEmpty(HttpContext.Session.GetString("USERNAME")))
                 actualUser = model.GetUser(HttpContext.Session.GetString("USERNAME"));
@@ -333,7 +345,8 @@ namespace AssistMeProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ShowStudioTable(string studio)
         {
-
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             ViewData["Studio"] = studio;
             var questions = await _context.Question.Where(q => q.QuestionStudios.Any(i => i.Studio.Name == studio)).Include(q => q.Answers)
                 .Include(q => q.QuestionLabels)
@@ -352,7 +365,8 @@ namespace AssistMeProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ShowTagTable(string tag)
         {
-
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             ViewData["Tag"] = tag;
             var questions = await _context.Question.Where(q => q.QuestionLabels.Any(i => i.Label.Tag == tag)).Include(q => q.Answers)
                 .Include(q => q.QuestionStudios)
@@ -372,7 +386,8 @@ namespace AssistMeProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ShowUserTable(string user)
         {
-
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             ViewData["Username"] = user;
 
             var questions = await _context.Question.Where(u => u.User.USERNAME == user)
@@ -392,6 +407,8 @@ namespace AssistMeProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ShowTable()
         {
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             var questions = await _context.Question
                 .Include(q => q.Answers)
                 .Include(q => q.QuestionLabels)
@@ -407,7 +424,8 @@ namespace AssistMeProject.Controllers
         // GET: Questions/Details/5
         public async Task<IActionResult> StudioDetails(int? id)
         {
-
+            if (string.IsNullOrEmpty(SetActiveUser()))
+                return RedirectToAction("Index", "Users", new { message = "Inicie sesión" });
             if (id == null)
             {
                 return NotFound();
@@ -444,6 +462,35 @@ namespace AssistMeProject.Controllers
             return View(studio);
         }
 
+        private void GetNotificationsOfUser()
+        {
+            string userActive = HttpContext.Session.GetString(UsersController.ACTIVE_USERNAME);
+            User user = model.GetUser(userActive);
+            try
+            {
+                ViewBag.Notifications = _context.Notification.Where(p => p.UserID == user.ID && !p.Read).ToList();
+            }
+            catch (Exception e)
+            {
+
+            }
+        }
+
+        /**
+         * This method allow to set the name of the active user. If there is no user, then pass the Studios that exist for create an account
+         **/
+        private String SetActiveUser()
+        {
+            //To pass the username active
+            string USER = HttpContext.Session.GetString(UsersController.ACTIVE_USERNAME);
+            if (string.IsNullOrEmpty(USER))
+                ViewBag.Studios = AssistMe.GetSelectListStudios(_context);
+            else
+                GetNotificationsOfUser();
+            ViewBag.ACTIVE_USER = USER;
+            return USER;
+            //End To pass the username active
+        }
 
     }
 
