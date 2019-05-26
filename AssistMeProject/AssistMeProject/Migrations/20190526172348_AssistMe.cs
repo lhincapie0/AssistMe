@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace AssistMeProject.Migrations
 {
-    public partial class Initia : Migration
+    public partial class AssistMe : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -77,6 +77,7 @@ namespace AssistMeProject.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Title = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
                     Read = table.Column<bool>(nullable: false),
                     UserID = table.Column<int>(nullable: false),
@@ -100,9 +101,10 @@ namespace AssistMeProject.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Description = table.Column<string>(maxLength: 30000, nullable: false),
+                    Description = table.Column<string>(maxLength: 500, nullable: false),
                     Date = table.Column<DateTime>(nullable: false),
                     Title = table.Column<string>(maxLength: 150, nullable: false),
+                    question_tags = table.Column<string>(maxLength: 300, nullable: false),
                     Insignia = table.Column<string>(nullable: true),
                     AskAgain = table.Column<bool>(nullable: false),
                     isArchived = table.Column<bool>(nullable: false),
@@ -125,7 +127,7 @@ namespace AssistMeProject.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Description = table.Column<string>(maxLength: 30000, nullable: false),
+                    Description = table.Column<string>(maxLength: 500, nullable: false),
                     Date = table.Column<DateTime>(nullable: false),
                     UserId = table.Column<int>(nullable: false),
                     QuestionID = table.Column<int>(nullable: false),
@@ -256,7 +258,7 @@ namespace AssistMeProject.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Description = table.Column<string>(maxLength: 30000, nullable: false),
+                    Description = table.Column<string>(maxLength: 500, nullable: false),
                     Date = table.Column<DateTime>(nullable: false),
                     UserId = table.Column<int>(nullable: false),
                     AnswerId = table.Column<int>(nullable: false)
